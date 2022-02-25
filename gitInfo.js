@@ -54,6 +54,8 @@ var gitStatusDefinition = "tells you about current selected repo"
 
 //CODE HERE
 var gitAddDefinition = 'add files to be tracked'
+
+var gitAddCode = "hello.js, varibles.js, arrays.js, sldc.js"
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,12 +66,13 @@ var gitAddDefinition = 'add files to be tracked'
 */
 
 //CODE HERE
-
+var gitCommitDefinition = "created a snapshot of files you're tracking"
+var gitAddCode = 'git commit -am "Inital commit'
 
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
     It should be a string containing your best definition of what 'git push' does.
 */
-
+var gitPushDefinition = 'sends recent commit history from you local repo to github'
 //CODE HERE
