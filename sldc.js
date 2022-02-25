@@ -19,8 +19,8 @@
     The first one is done for you. 
 */
 const planning = "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added."
-var analysisOfRequirements = 2
-var design = 3
-var implementation = 4
-var testing = 5
-var maintain = 6
+var analysisOfRequirements = "Analysis of requirements is considered part of planning to determine what the application is supposed to do and its requirements"
+var design = "The Design phase models the way a software application will work"
+var implementation = "This is the actual writing of the program"
+var testing = "The testing team evaluates the developed product"
+var maintain = "Program is finished and being used. Users can find bugs that weren't found durning the testing phase"
