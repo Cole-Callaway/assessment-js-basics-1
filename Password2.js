@@ -7,7 +7,7 @@ const reader = readline.createInterface({
 
 
 reader.question("Welcome please enter your password:", function(input){
-	if (input <= 10) {
+	if (input < 10) {
 		console.log('Password must be 10 charaters long')
 	}
 	
